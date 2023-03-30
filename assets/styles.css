@@ -101,11 +101,11 @@ header h2 {
 #project_page {
     min-height: 100vh;
     max-height: fit-content;
-    background-color: var(--green);
+    background-color: var(--blue);
 }
 
 #project_page h2 {
-    color: var(--blue);
+    color: var(--green);
     font-size: 30px;
     text-align: center;
 } 
@@ -123,7 +123,7 @@ header h2 {
  height: 8rem;
  text-align: center;
  text-decoration: none;
- border: solid 2px var(--blue);
+ border: solid 4px var(--green);
  margin: 1rem 0 1rem 0;
  position: relative;
 }
@@ -150,9 +150,9 @@ header h2 {
 }
 
 #projectBox a h3 {
-    color: var(--green);
+    color: var(--blue);
     position: relative;
-    background-color: var(--blue);
+    background-color: var(--green);
     display: inline-flex;
     padding: .5rem;
 }
@@ -190,4 +190,35 @@ header h2 {
     font-weight: 400;
     text-decoration: none;
     color: white;
+}
+
+@media (min-width:400px) {
+
+    .bioBox h2 {
+        font-size: 50px;
+    }
+
+    .bioBox p {
+        font-size: 20px;
+    }
+
+    .bioBox ul {
+        font-size: 20px;
+        margin-left: 30%;
+
+    }
+
+    #project_page h2 {
+        font-size: 50px;
+    } 
+
+    #contact_page h2 {
+        font-size: 50px;
+    }
+
+    #contact_page li {
+        font-size: 20px;
+        display: inline-block;
+        margin-left: 30%;
+    }
 }
