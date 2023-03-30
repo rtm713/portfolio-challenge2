@@ -4,9 +4,15 @@
     --blue:  #4831D4;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: var(--gray);
 }
+
+/* -----------------------------  Home Page  -------------------------------------- */
 
 #home_page {
     height: 100vh;
@@ -62,6 +68,50 @@ header h2 {
     justify-content: center;
 }
 
-#avatar {
-    width: auto;
+/* -----------------------------  Bio Page  -------------------------------------- */
+
+#bio_page {
+    height: 100vh;
+    background-color: var(--blue);
+}
+
+.bioBox {
+    margin: 0 2rem 0 2rem;
+}
+
+.bioBox h2 {
+    color: var(--green);
+    font-size: 30px;
+    text-align: center;
+} 
+
+.bioBox p {
+    text-align: center;
+    color: white;
+}
+
+/* -----------------------------  Projects Page  -------------------------------------- */
+
+#project_page {
+    min-height: 100vh;
+    background-color: var(--green);
+}
+
+#project_page h2 {
+    color: var(--blue);
+    font-size: 30px;
+    text-align: center;
+} 
+
+/* -----------------------------  Contact Page  -------------------------------------- */
+
+#contact_page {
+    height: 100vh;
+    background-color: var(--blue);
+}
+
+#contact_page h2 {
+    color: var(--green);
+    font-size: 30px;
+    text-align: center;
 }
