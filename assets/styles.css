@@ -61,3 +61,7 @@ header h2 {
     width: 100%;
     justify-content: center;
 }
+
+#avatar {
+    width: auto;
+}
