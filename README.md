@@ -25,3 +25,11 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+
+## Website URL
+
+https://rtm713.github.io/portfolio-challenge2/
+
+## Website Screenshot
+
+![Alt text](./assets/images/rtm713.github.io_portfolio-challenge2_.png "Website Screenshot")
