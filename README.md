@@ -33,3 +33,9 @@ https://rtm713.github.io/portfolio-challenge2/
 ## Website Screenshot
 
 ![Alt text](./assets/images/rtm713.github.io_portfolio-challenge2_.png "Website Screenshot")
+
+## code sources
+
+https://cssbud.com/css-generator/css-glow-generator/
+
+used for the afterglow effect on homepage.
